@@ -19,6 +19,16 @@
     }
 }
 
+@media only screen and (max-width: 1000px) {
+    body, html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        box-sizing: border-box; /* Ensures padding is included in element width */
+    }
+}
+
+
 html {
     scroll-behavior: smooth;
 }
