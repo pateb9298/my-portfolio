@@ -412,8 +412,8 @@ li a{
 
 @media only screen and (max-width: 480px) {
     #skills-section .skills-row{
-        flex-direction: row;
-        gap: 2px; 
+        flex-direction: column;
+        gap: 40px; 
 
     }
 
@@ -426,13 +426,13 @@ li a{
     }
 
     #skills-section .title{
-        width: 250px;
+        width: 180px;
         height: 170px;
         margin-top: -20px; 
     }
 
     #skills-section .skills-row .skills-category .skill-card {
-        width: 100px;
+        width: 170px;
         height: 150px;
         perspective: 1000px;
         cursor: pointer;
