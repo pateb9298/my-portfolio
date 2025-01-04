@@ -432,7 +432,7 @@ li a{
     }
 
     #skills-section .skills-row .skills-category .skill-card {
-        width: 170px;
+        width: 100px;
         height: 150px;
         perspective: 1000px;
         cursor: pointer;
